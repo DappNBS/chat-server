@@ -25,6 +25,7 @@ endif
 
 SERVER_EXEC := $(PRO_NAME)$(EXTEND)
 
+include mk/utils.mk
 #enable second expansion
 .SECONDEXPANSION :
 	@ehco $(OS)
